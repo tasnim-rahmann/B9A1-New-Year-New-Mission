@@ -1,0 +1,29 @@
+.header-section {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../assect/Banner\ Image.png);
+    width: 1320px;
+    height: 600px;
+    margin: 50px auto 120px auto;
+    border-radius: 16px;
+}
+
+.header-title,
+.header-description {
+    font-family: Merriweather;
+    text-align: center;
+    color: #FFF;
+}
+
+.header-title {
+    font-size: 32px;
+    font-weight: 400;
+    padding: 180px 530px 0px 530px;
+    margin-bottom: 0px;
+}
+
+.header-description {
+    font-size: 72px;
+    font-weight: 900;
+    line-height: 95px;
+    padding: 0px 350px 0px 350px;
+    margin-top: 10px;
+}

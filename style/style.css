@@ -17,6 +17,20 @@
     color: #F00;
 }
 
+.primary-btn {
+    color: #ffeded;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+    background-color: #F00;
+    border: 0;
+    margin-left: 45%;
+    margin-top: 25px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
 .size-of-img {
     margin: 50px auto 120px auto;
     border-radius: 16px;
@@ -83,11 +97,6 @@
     margin-bottom: 35px;
 }
 
-.section-tow-column {
-    padding-left: 125px;
-    padding-top: 125px;
-}
-
 .section-two {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../assect/Vectorrr.png);
     display: flex;
@@ -97,11 +106,14 @@
 .section-two-heading {
     font-size: 64px;
     font-weight: 900;
+    padding-left: 125px;
+    padding-top: 125px;
 }
 
 .section-two-description {
     font-size: 18px;
     font-weight: 400;
+    padding-left: 125px;
 }
 
 .join-btn {
@@ -112,4 +124,69 @@
     font-size: 20px;
     font-weight: 700;
     text-transform: uppercase;
+    padding-left: 125px;
+}
+
+.section-two-img {
+    padding-right: 35px;
+    padding-top: 60px;
+}
+
+.section-three {
+    background-color: #ffeded;
+    width: 1320px;
+    height: 300px;
+    margin: auto;
+    padding-top: 60px;
+}
+
+.section-three-title {
+    text-align: center;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 56px;
+    text-transform: capitalize;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.section-four {
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+    padding-left: 282px;
+    padding-right: 150px;
+    padding-top: 100px;
+}
+
+.section-four,
+.first-part,
+.second-part {
+    margin-right: 150px;
+}
+
+.first-part {
+    margin-right: 100px;
+}
+
+.first-part-tilte {
+    color: #070211;
+    font-size: 48px;
+    font-weight: 900;
+    text-transform: capitalize;
+}
+
+.first-part-description {
+    color: rgba(7, 2, 17, 0.60);
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+}
+
+.second-part {
+    width: 364.844px;
+    height: 364.844px;
+    flex-shrink: 0;
+    border-radius: 463px;
+    border: 15px solid #F00;
 }

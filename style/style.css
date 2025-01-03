@@ -225,9 +225,27 @@
     margin-top: 0px;
 }
 
+.background {
+    height: 300px;
+}
+
 .person {
     display: flex;
     justify-content: end;
+}
+
+.gift-box>img {
+    height: 550px;
+    width: 700px;
+    position: relative;
+    bottom: 550px;
+    right: 300px;
+}
+
+.discount-img {
+    position: relative;
+    left: 150px;
+    top: 80px;
 }
 
 .section-six {

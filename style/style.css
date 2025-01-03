@@ -300,32 +300,66 @@
 }
 
 footer {
-    background: #070211;
-    height: 609px;
+    background-color: #070211;
     margin-top: 100px;
+    height: 600px;
+    width: 100%;
 }
 
 .details {
     display: flex;
-    color: #FFF;
-    padding-top: 100px;
-    padding-left: 200px;
+    color: #ffeded;
     justify-content: space-between;
-    font-size: 30px;
-}
-
-.contact {
-    justify-content: center;
+    padding-top: 80px;
 }
 
 .location {
-    /* padding-right: 750px; */
+    font-size: 24px;
+    font-weight: 500;
+    padding-left: 250px;
 }
 
-.phone {
+.contact {
+    font-size: 24px;
+    font-weight: 500;
     padding-right: 250px;
 }
 
-.hr {
-    width: 1600px;
+.photo {
+    height: 23px;
+}
+
+#hr {
+    width: 1350px;
+    filter: brightness(20%);
+}
+
+.social-links {
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.social-links-images {
+    padding-right: 10px;
+}
+
+.copy-right-section {
+    display: flex;
+    color: #ffeded;
+}
+
+.copy-right-section-first {
+    font-size: 24px;
+    font-weight: 500;
+    padding-left: 250px;
+    padding-right: 950px;
+}
+
+.copy-right-section-btn {
+    background: none;
+    border: 0;
+    color: #ffeded;
+    font-size: 24px;
+    font-weight: 500;
 }
